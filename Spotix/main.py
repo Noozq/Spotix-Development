@@ -132,7 +132,7 @@ async def market_command(ctx):
         await ctx.send(f"Fehler beim Abrufen der Marktdaten: {str(e)}")
 
 
-token = ('MTI1NDU4MjQ0OTc3NDY1NzU5OQ.GltBeL.Kf1PRaQ3AAhmXXmqpfds1kFFrt4afoYe12pRTs')
+token = ('')
 
 async def start_discord_bot():
     await client.start(token)
